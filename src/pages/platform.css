@@ -1,0 +1,118 @@
+.main-img-container {
+    width: 100%;
+    position: relative;
+
+}
+.bg-img{
+    width: 100%;
+    height: 50vh;
+
+}
+.grammerly-background{
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 100px;
+    border: 1px solid gainsboro;
+}
+.grammarly-text{
+    position: absolute;
+    bottom: 0px;
+    left: 250px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+.prada-container{
+    color: black;
+    font-family: sans-serif;
+    padding-top: 50px;
+    padding-bottom: 10px;
+   
+}
+
+.prada-rank{
+    font-weight: 700;
+
+}
+.prada-chart{
+    float: right;
+    font-weight: 700;
+}
+.prada-tabs{
+    width: 100%;
+}
+.rank-number{
+    color: #1572FF;
+    font-size: 52px;
+    font-weight: 700;
+}
+.rank-number span{
+    font-size: 14px;
+    color: rgb(175, 175, 175);
+}
+.tabs-container{
+    border-top: 2px solid rgb(226, 226, 226);
+
+}
+.tabs-container .css-heg063-MuiTabs-flexContainer{
+    justify-content: space-around;
+}
+.tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    color: black;
+    font-weight: 600;
+}
+.tabs-container .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #1976d2;
+    color: black;
+    font-weight: 600;
+}
+.tabs-container .css-1aquho2-MuiTabs-indicator {
+    height: 6px;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #1976d2;
+}
+.platform-container{
+    background-color: #F4F5FA;
+}
+.platform-contaniers{
+    margin-bottom: 40px;
+
+}
+.platform-contaniers{
+    background-color: white;
+}
+.platform-container p{
+    padding: 0px 20px 20px 20px;
+}
+.platform-container h6{
+    padding: 18px 20px 0px 20px;
+    color: #1976D2;
+}
+.platform-container .MuiContainer-root {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.industry-container{
+    padding: 20px 20px 35px 20px !important;
+    
+}
+.hr-line{
+    
+    color: rgb(99, 99, 99);
+}
+.capsule-skill{
+    border: 2px solid rgb(170, 170, 170);
+    padding: 10px !important;
+    border-radius: 100px;
+}
+.industry-container .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+    font-size: 12px;
+    font-weight: 600;
+}
+.full-description{
+    height: 60vh;
+}

@@ -1,0 +1,85 @@
+.header-container{
+    padding: 20px 40px;
+    background-color: #10296E;
+    color: white;
+}
+.logo-container a{
+    text-decoration: none;
+    color: white;
+}
+.logo-container span{
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav-links-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav-links-list li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+.login-en{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login-en a{
+    text-decoration: none !important;
+
+}
+.login-btn{
+    margin-left: 30px;
+    color: white;
+    border: 1px solid rgb(155, 7, 7);
+    padding: 0px 30px;
+    border-radius: 100px;
+}
+.search-btn{
+    color: white;
+    border: 1px solid rgb(155, 7, 7);
+    padding: 6px 30px;
+    border-radius: 100px;
+    cursor: pointer;
+    width: 100%;
+}
+.btn-grid{
+    display: flex;
+
+}
+.search-text{
+    -webkit-user-select: none;
+    user-select: none !important;
+    margin-left: 30px;
+    color: white;
+    border: 1px solid #F0426C;
+    padding: 4px 10px;
+    padding-right: 40px;
+    border-radius: 100px;
+    position: absolute;
+    right: 0; 
+    cursor: pointer;
+    background-color: #F0426C;
+    text-transform: uppercase;
+}
+.search-text span{
+    float: left;
+    padding-right: 30px;
+    font-size: 16px;
+}
+.btn-grid{
+    position: relative;
+}
+.btn-grid input{
+    font-size: 14px;
+    background-color: transparent;
+    outline: none !important;
+}
+.btn-grid input::placeholder{
+    color: rgb(175, 175, 175);
+    text-transform: uppercase;
+}
